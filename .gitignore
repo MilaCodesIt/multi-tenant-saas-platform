@@ -1,0 +1,57 @@
+# Scala/sbt build artifacts
+target/
+project/target/
+project/project/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.bsp/
+.metals/
+.bloop/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker volumes (local)
+docker/volumes/
+
+# Test databases
+*.db
+*.sqlite
+
+# Coverage reports
+coverage/
+scoverage-report/
+
+# Native packager output
+universal/
+
+# Secrets (never commit these)
+*.pem
+*.key
+secrets/
+credentials/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# Dependency lock files that might cause issues
+.scala-build/
