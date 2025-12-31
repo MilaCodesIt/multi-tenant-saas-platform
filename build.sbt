@@ -134,3 +134,4 @@ lazy val it = (project in file("it"))
       "com.dimafeng" %% "testcontainers-scala-core" % testcontainersVersion
     )
   )
+
