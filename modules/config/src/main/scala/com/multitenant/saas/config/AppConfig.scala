@@ -5,8 +5,9 @@ import eu.timepit.refined.types.net.PortNumber
 import eu.timepit.refined.types.string.NonEmptyString
 import zio.ZLayer
 
-//1. Adding dummy objects so the app compiles and does not connect to  real env or server
-
+//1. Adding dummy objects so the app compiles and does not connect to  real env or server.
+//In this first push I will use Zio for easy set up, once this is the foundation for next changes I will rever Zio to Ciris
+//TODO: Change Zio for Ciris project to hold secrets.
 final case class DatabaseConfig(
                                  host: NonEmptyString,
                                  port: PortNumber,
